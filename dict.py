@@ -87,4 +87,54 @@
 
 
 
+
+
+
+
+# q.
+# Find the highest-paid employee in each department.
+# Calculate the total salary expenditure per department.
+# Return a new dictionary with department-wise highest salaries and total expenditures.
+
+
+employees = {
+    "HR": [
+        {"name": "Alice", "salary": 50000},
+        {"name": "Bob", "salary": 55000}
+    ],
+    "Engineering": [
+        {"name": "Charlie", "salary": 80000},
+        {"name": "David", "salary": 90000},
+        {"name": "Eve", "salary": 85000}
+    ],
+    "Marketing": [
+        {"name": "Frank", "salary": 60000},
+        {"name": "Grace", "salary": 62000}
+    ]
+}
+
+
+# heighest paid employee of each department
+
+# for i in employees:
+#     depvise={}
+#     heighest=0
+#     for j in employees[i]:
+        
+#         if j["salary"]>heighest:
+#             heighest=j["salary"]
+#             new=j
+#     depvise[i]=new
+#     print(depvise)
+
+# import itertools
+
+
+# players = ["Alice", "Bob", "Charlie", "David"]
+# new=list(itertools.combinations(players,2))
+# print(new)
+            
+
+        
+
     
