@@ -37,7 +37,11 @@ for i in range(1,n+1):
         k+=1
     print()
     
-        
+n=4
+for i in range(n):
+    a=" "*i
+    b=n-i
+    print(a+"*"*b)      
        
 
 
